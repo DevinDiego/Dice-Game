@@ -1,0 +1,184 @@
+* {
+  align-items: center;
+  overflow: hidden;
+}
+
+body {
+  background-image: linear-gradient(to top left, #3a3ce4 0%, #979cc7 100%);
+  color: #fffff0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 3.3% 15% 10% 15%;
+}
+
+.title {
+  display: flex;
+}
+
+.player-active {
+  color: #00ff00;
+}
+
+.directions {
+  border-radius: 5px;
+  cursor: pointer;
+  left: 100px;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 4vh;
+  margin: 0;
+  position: relative;
+  width: 9%;
+}
+
+section {
+  background-color: #383838;
+  height: 65vh;
+  padding-top: 8%;
+}
+
+.top {
+  display: flex;
+  padding: 3% 0;
+}
+
+.top h1,
+button {
+  text-align: center;
+  margin: auto;
+}
+
+.player-header-top-sec {
+  font-size: 3rem;
+}
+
+.play-again {
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 4vh;
+  margin: 0;
+  width: 9%;
+}
+
+.total-score-sup1 {
+  left: 19%;
+  padding: 0;
+  position: relative;
+}
+
+.total-score-sup2 {
+  padding: 0;
+  position: relative;
+  left: 48.4%;
+}
+
+.middle {
+  display: flex;
+  padding-bottom: 3%;
+}
+
+.middle h1,
+img {
+  text-align: center;
+  margin: auto;
+}
+
+.total-score-player0 {
+  background-color: #fffff0;
+  border-radius: 5px;
+  color: #000;
+  font-size: 3.5rem;
+  height: 10vh;
+  margin: 0;
+  padding-top: 16px;
+  text-align: center;
+  width: 8%;
+}
+
+.total-score-player1 {
+  background-color: #fffff0;
+  border-radius: 5px;
+  color: #000;
+  font-size: 3.5rem;
+  height: 10vh;
+  margin: 0;
+  padding-top: 16px;
+  text-align: center;
+  width: 8%;
+}
+
+.dice-img {
+  margin: 0;
+  width: 10%;
+}
+
+.under-middle {
+  display: flex;
+}
+
+.under-middle h1,
+button {
+  text-align: center;
+  margin: auto;
+}
+
+.current-score-player0 {
+  background-color: #fffff0;
+  border-radius: 5px;
+  color: #000;
+  font-size: 3.5rem;
+  height: 10vh;
+  padding-top: 16px;
+  text-align: center;
+  width: 8%;
+}
+
+.current-score-player1 {
+  background-color: #fffff0;
+  border-radius: 5px;
+  color: #000;
+  font-size: 3.5rem;
+  height: 10vh;
+  padding-top: 16px;
+  text-align: center;
+  width: 8%;
+}
+
+.btn-roll {
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 4vh;
+  margin: 0;
+  width: 10%;
+}
+
+.bottom {
+  display: flex;
+}
+
+.bottom p,
+button {
+  text-align: center;
+  margin: auto;
+}
+
+.current-score-sub1 {
+  padding: inherit;
+}
+
+.current-score-sub2 {
+  padding: inherit;
+}
+
+.btn-hold {
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 4vh;
+  margin: 0;
+  width: 10%;
+}
